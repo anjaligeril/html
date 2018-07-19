@@ -1,0 +1,99 @@
+		  
+			#subsection1 {
+			            float:left;
+						height:500px;
+						width:33.33%;
+						background-color:blue;
+						  }
+			#subsection2 {
+			            height:500px;
+						width:33.33%;
+						background-color:green;
+						  }
+			#subsection3 {
+			            float:right;
+						height:500px;
+						width:33.33%;
+						background-color:red;
+						  }
+						  
+						  background-image:url("images/header1.jpg");
+						  
+						  #subsec1left1 {
+							height:100px;
+							float:left;
+							width:50%;
+							background-color:red;
+							}
+		    #subsec1right1 {
+							height:100px;
+							float:right;
+							width:50%;
+							background-color:green;
+							}
+			#subsec1left2 {
+							height:100px;
+							float:left;
+							width:50%;
+							background-color:yellow;
+							}
+		    #subsec1right2 {
+							height:100px;
+							float:right;
+							width:50%;
+							background-color:violet;
+							}
+					
+				
+					table, th, td {
+							border: 1px solid black;
+						}
+			table {
+					width: 100%;
+				  }
+			.column {
+					height:200px;
+					}
+					
+										<div id="table">
+				<table>
+				<tr class="row">
+				<td class="column"><img Src="images/alapuzha.jpg" height="100" width="100" alt="google"></td>
+				<td class="column"></td>
+				</tr>
+				<tr class="row">
+				<td class="column"></td>
+				<td class="column"></td>
+				</tr>
+				<tr class="row">
+				<td class="column"></td>
+				<td class="column"></td>
+				</tr>
+				<tr class="row">
+				<td class="column"></td>
+				<td class="column"></td>
+				</tr>
+				</table>
+				</div>
+				
+				#alapuzha {
+						padding-top:50px;
+						padding-left:25px;
+						color:#3a5705;
+						
+						}
+						<h4 id="alapuzha">ALAPUZHA</h4>
+						
+						background: linear-gradient(#f0d562,#61721c);
+						.subsection {
+						float:left;
+						height:600px;
+						}
+						.content2 {
+						float:left;
+						height:250px;
+					  }
+					  .content3 {
+						float:left;
+						height:250px;
+					  }
