@@ -13,6 +13,7 @@
             background-size: cover;
             background-repeat: no-repeat;
         }
+		
 		#wrapper {
 			margin 0 auto;
 			background: linear-gradient(#f0d562, #61721c);
@@ -22,18 +23,112 @@
             margin: 0 auto;
             border-radius: 50px;
 		}
+		
 		.body0 {
             font-family: "Georgia", serif;
             font-weight: bold;
+			color:black;
         }
+		
+		#info {
+            padding-left: 100px;
+        }
+        
+        #no {
+            padding-left: 350px;
+        }
+		
 		#header {
             border-radius: 50px;
             background-image: url("images/header1.jpg");
             background-size: cover;
             height: 350px;
+			width:100%;
+			border: 5px solid #3a5705;
+            box-sizing: border-box;
+			color:black;
+			margin-left:0px;
+		}
+		
+		#title {
+            height: 250px;
+            font-family: "Georgia", serif;
+        }
+		
+		#title h1 {
+            padding-left: 150px;
+            padding-top: 10px;
+            font-size: 50px;
+            text-shadow: 3px 2px #3a5705;
+        }
+		
+		#title h3 {
+            padding-left: 225px;
+            color: #3a5705;
+        }
+		
+		#body1 {
+		    height: 40px;
             border: 5px solid #3a5705;
             box-sizing: border-box;
+            border-radius: 10px;
+            background-color: #e5ad00;
+			margin-left:0px;
+			width:100%;
+			
         }
+		
+		 #discount {
+            font-size: 20px;
+            padding-left: 270px;
+            color: black;
+        }
+		#body2 {
+            height: 850px;
+			width:100%;
+			
+        }
+		
+		 #subsection1 {
+            height: 850px;
+            background-color: #9c9a3e;
+            border: 5px solid #3a5705;
+            box-sizing: border-box;
+            border-radius: 25px;
+			margin-left:15px;
+        }
+		
+		.link {
+            text-decoration: none;
+            color: black;
+        }
+		
+		 #famousdestinations {
+            text-align: center;
+            font-size: 20px;
+			color:black;
+			font-family: "Georgia", serif;
+        }
+		
+		#subsec1left1 {
+            height: 150px;
+            background-image: url("images/alapuzha.jpg");
+            background-size: cover;
+            border: 3px solid #3a5705;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+		
+		#subsec1right1 {
+            color:black;
+        }
+		
+		#subsec1left2 {
+            height: 150px;
+            float: left;
+            width: 50%;
+        }
+        
 	</style>
 	<body>
 		<div id="wrapper">
@@ -55,18 +150,16 @@
 						<img id="logo" src="images/logoai.png" height="250" width="300" alt="logo">
 					</div>
 				</div>
-				<div id="nav" class="row" >
-					<div id ="nav1" class="col-lg-12">
-						<ul>
-							<li> <a href="#" class="nav">Home</a></li>
-							<li><a href="explorepage.html" class="nav"> Explore &amp; Experience</a></li>
-							<li><a href="destinationspage.html" class="nav">Famous Destinations</a></li>
-							<li><a href="packages.html" class="nav">Packages</a></li>
-							<li><a href="planyourtrip.html" class="nav">Plan your Trip</a></li>
-							<li><a href="#" class="nav">Gallery</a></li>
-							<li><a href="#" class="nav">Contact Us</a></li>
+				<div id="nav" class="navbar navbar-inverse" >
+					<ul class="nav navbar-nav">
+							<li> <a href="#" class="active">Home</a></li>
+							<li><a href="explorepage.html" > Explore &amp; Experience</a></li>
+							<li><a href="destinationspage.html" >Famous Destinations</a></li>
+							<li><a href="packages.html" >Packages</a></li>
+							<li><a href="planyourtrip.html" >Plan your Trip</a></li>
+							<li><a href="#" >Gallery</a></li>
+							<li><a href="#" >Contact Us</a></li>
 						</ul>
-					</div>
 				</div>
 			</div >
 			<div id="body1" class="row">
@@ -177,17 +270,130 @@
 						<div id="content21" class="col-lg-4">
 							 <h5 id="package1" class="package "><a href="packages.html" class="nav" target="_blank">God's Own Country</a> </h5>						
 						</div>	
-						
+						<div id="content22" class="col-lg-4">
+							<h5 id="package2" class="package "><a href="packages.html" class="nav" target="_blank">Ayurvedic Treatment</a> </h5>			
+						</div>	
+						<div id="content23" class="col-lg-4">
+							 <h5 id="package3" class="package "><a href="packages.html" class="nav" target="_blank">Houseboat Cruise</a> </h5>						
+						</div>	
+					</div>
+					<div class="row" >
+						<div id="content31" class="col-lg-4">
+							 <h5 id="package4" class="package"><a href="packages.html" class="nav" target="_blank">Wild Life Sanctuary</a> </h5>					
+						</div>	
+						<div id="content32" class="col-lg-4">
+							 <h5 id="package5" class="package"><a href="packages.html" class="nav" target="_blank">Village Life</a> </h5>			
+						</div>	
+						<div id="content33" class="col-lg-4">
+							<h5 id="package6" class="package "><a href="packages.html" class="nav" target="_blank">Heritage</a> </h5>						
+						</div>	
 					</div>
 				</div>
 			  </div>
 			  <div id="subsection3" class="col-lg-3">
+				<div class="row">
+					<div id="testiname1" class="col-lg-12">
+						<h4 id="testiname">TESTIMONIAL</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div id="family" class="col-lg-12">
+						<img src="images/family.jpg" height="150" width="150" alt="family" id="family">
+					</div>
+				</div>
+				<div class="row">
+					<div id="testi" class="col-lg-12">
+						<p>&quot;Thank you all very much for the excellent service during our trip to kerala last month. 
+					         Very good service, good hotels, good driver and guide as well, and prices are very affordable.
+							 We really had a great time.&quot;- GERIL GEORGE
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					 <div id="Enquirehead" class="col-lg-12">
+						 <h4 id="getquick">Get A Quick Reply</h4>
+					 </div>
+				</div>
+				<div class="row">
+				 <div id="form" class="col-lg-12">
+					 <form>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label>Name:</label>
+                                    </td>
+                                    <td>
+                                        <input id="username" type="text" name="username" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Email ID:</label>
+                                    </td>
+                                    <td>
+                                        <input id="useremail" type="email" name="useremail" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label> Phone No:</label>
+                                    </td>
+                                    <td>
+                                        <input type="tel" name="tele" required pattern="[0-9]{10}">
+                                    </td>
+                                </tr>
+                            </table>
+                            <label> Message:</label>
+                            <br>
+                            <br>
+                            <textarea name="message" rows="10" cols="35"> </textarea>
+                            <br>
+                            <br>
+                            <input type="submit" id="submit1">
+                        </form>
+				 </div>
+				</div>
 			  </div>
 			</div >
 			<div id="body3" class="row">
+				<div class="row">
+					<div class="col-lg-2">
+					  <a href="explorepage.html" target="_blank"><img src="images/artforms.jpg" width="225" height="225" alt="artforms" class="image"></a>
+                     </div>
+					<div class="col-lg-2">
+						<a href="explorepage.html" target="_blank"><img src="images/ayurveda.jpg" width="225" height="225" alt="ayurveda" class="image"></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="explorepage.html" target="_blank"><img src="images/festivals.jpg" width="225" height="225" alt="festivals" class="image"></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="explorepage.html" target="_blank"><img src="images/hillstation.jpg" width="225" height="225" alt="hillstation" class="image"></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="explorepage.html" target="_blank"><img src="images/sadhya1.jpg" width="225" height="225" alt="sadhya" class="image"></a>
+					</div>
+				</div>
 			</div >
 			<div id="footer" class="row">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul>
+							<li><a href="#" class="foot1">Sitemap  |</a></li>
+							<li><a href="#" class="foot1">Google Sitemap  |</a></li>
+							<li><a href="#" class="foot1">RSS Feeds  |</a></li>
+							<li><a href="#" class="foot1">ROR Sitemap  </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<span>Copyright &copy; 2018 Destination Kerala Pvt.Ltd.All rights reserved.</span>
+					</div>
+				</div>
+				
 			</div >
 		</div>
 	</body>
 </html>
+
+  
